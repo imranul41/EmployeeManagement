@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".activity.MainActivity">
+
+    <Button
+        android:id="@+id/btnAdd"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:textSize="20sp"
+        android:text="Add"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/btnShow"
+        app:layout_constraintTop_toBottomOf="@id/btnAdd"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:textSize="20sp"
+        android:text="Show"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/btnUpdate"
+        app:layout_constraintTop_toBottomOf="@id/btnShow"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:textSize="20sp"
+        android:text="Update"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/btnAddPlayer"
+        app:layout_constraintTop_toBottomOf="@id/btnUpdate"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:textSize="20sp"
+        android:text="AddPlayer"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/btnShowPlayer"
+        app:layout_constraintTop_toBottomOf="@id/btnAddPlayer"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:textSize="20sp"
+        android:text="ShowPlayer"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/btnUpdatePlayer"
+        app:layout_constraintTop_toBottomOf="@id/btnShowPlayer"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:textSize="20sp"
+        android:text="UpdatePlayer"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
